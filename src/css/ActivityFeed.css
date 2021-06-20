@@ -1,0 +1,62 @@
+.call{
+  border: solid 1px black;
+  margin-top: 10px;
+  background-color: #D2EBD4;
+  height: 65px;
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.right-side{
+ display: grid;
+  grid-template-rows: 1fr 1fr;
+  height:100%; 
+}
+
+.date-head{
+  text-align: center;
+  margin:0;
+  margin-top: 5px;
+}
+
+
+.call-icon{
+  display: inline;
+  margin-left: 5px;
+  
+}
+
+
+.call-from{
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+.archive{
+  position:relative;
+  right:-60%;
+  margin:0;
+}
+
+.archive:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.created{
+  position:relative;
+  right:-50%;
+  bottom:-50%;
+}
+
+.info{
+  position:relative;
+  right:-50%;
+  margin:0;
+}
+
+.info:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+}
